@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "spectrum-api": [
+        "dist/spectrum-api"
+      ],
+      "spectrum-api/*": [
+        "dist/spectrum-api/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
